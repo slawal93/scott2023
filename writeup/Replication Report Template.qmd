@@ -1,9 +1,9 @@
 ---
-title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
-author: "Replication Author[s] (contact information)"
+title: "Replication of Study 1B in “Good people don’t need medication”: How moral character beliefs affect medical decision making by Sydney E. Scott and Justin F. Landy (2023, Organizational Behavior and Human Decision Processes)"
+author: "Replication Author[s]: Seyi Lawal"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
-  html:
+  pdf:
     toc: true
     toc_depth: 3
 ---
@@ -12,14 +12,25 @@ format:
 
 ## Introduction
 
-[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.  
+**Justification of experiment choice:**
 
+My research interests are around how consumers make health-related decisions and the factors that influence their choices. One specific area I am looking at now is why consumers may be reluctant to seek treatment for conditions that have very effective medications. I found this paper while looking at existing literature in the field, and it was one of the first to raise that people view taking medication as demonstrating a lack of will power / moral character. I chose study 1B for the replication because it most directly tests the hypothesis that medication is seen as showing worse willpower and worse moral character (vs behavioral treatments). I'm interested in follow on research that looks at how medical professionals' language in talking about certain conditions can serve to reinforce or minimize that view. Logistically, it is also good for testing because the data comes from Prolific surveys and all of the exact content of the survey is published to osf, so I can get very close to replicating the exact study that was run.
+
+**Stimuli and procedures:**
+
+For this study, participants were recruited on Prolific to complete a survey in exchange for monetary payment. The stimuli in this study is the information participants are provided about a treatment for a condition, specifically whether it is framed as a behavioral change versus a medication. Participants were randomly assigned to one of two conditions (Behavioral treatment, Medication treatment). Survey participants read a vignette "Imagine you have gingivitis, a gum disease that is causing your gums to be swollen and tender and causing bad breath. There is (a change in your daily routine you can do \[behavioral treatment condition\]/ a medication you can use \[medication treatment condition\]) to treat this, which is a medicated mouthwash (Scott 2023, p.6)." Participants are then asked to rate the treatment in terms of how likely they are to prefer the treatment, to what extent doing the treatment shows willpower, and to what extent doing the treatment shows moral character (via Likert scales). There were also a couple of filler questions (e.g., asking to what extent the treatment would show that the participant was playful), intended to reduce experimenter demand effects. Participants were then presented with a manipulation check question asking whether the treatment was considered more of a medication or a behavioral treatment, and an attention check question. Finally, after responding to these questions, participants were also asked to complete demographic measures, and were asked a few questions about their familiarity with gingivitis.
+
+This process can be replicated using Prolific to get subjects and Qualtrics to code the survey. I do not foresee any challenges with running the study; it is a fairly straightforward setup.
+
+**Repo Link:** <https://github.com/slawal93/scott2023>
+
+**Original Paper Link:** <https://github.com/slawal93/scott2023/tree/main/original_paper>
 
 ## Methods
 
 ### Power Analysis
 
-Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
+Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size. Considerations of feasibility for selecting planned sample size.
 
 ### Planned Sample
 
@@ -27,40 +38,40 @@ Planned sample size and/or termination rule, sampling frame, known demographics 
 
 ### Materials
 
-All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely. Or, quote directly and just point out exceptions to what was described in the original article.
 
-### Procedure	
+### Procedure
 
-Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+Can quote directly from original article - just put the text in quotations and note that this was followed precisely. Or, quote directly and just point out exceptions to what was described in the original article.
 
 ### Analysis Plan
 
-Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.  
+Can also quote directly, though it is less often spelled out effectively for an analysis strategy section. The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.
 
-**Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do.
+**Clarify key analysis of interest here** You can also pre-specify additional analyses you plan to do.
 
 ### Differences from Original Study
 
-Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
+Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study. The goal, of course, is to minimize those differences, but differences will inevitably occur. Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
 
 ### Methods Addendum (Post Data Collection)
 
 You can comment this section out prior to final report with data collection.
 
 #### Actual Sample
-  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+
+Sample size, demographics, data exclusions based on rules spelled out in analysis plan
 
 #### Differences from pre-data collection methods plan
-  Any differences from what was described as the original plan, or “none”.
 
+Any differences from what was described as the original plan, or “none”.
 
 ## Results
-
 
 ### Data preparation
 
 Data preparation following the analysis plan.
-	
+
 ```{r include=F}
 ### Data Preparation
 
@@ -75,20 +86,20 @@ Data preparation following the analysis plan.
 
 ### Confirmatory analysis
 
-The analyses as specified in the analysis plan.  
+The analyses as specified in the analysis plan.
 
 *Side-by-side graph with original graph is ideal here*
 
 ### Exploratory analyses
 
-Any follow-up analyses desired (not required).  
+Any follow-up analyses desired (not required).
 
 ## Discussion
 
 ### Summary of Replication Attempt
 
-Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.
 
 ### Commentary
 
-Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt. None of these need to be long.
