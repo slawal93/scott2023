@@ -24,7 +24,7 @@ This process can be replicated using Prolific to get subjects and Qualtrics to c
 
 **Repo Link:** <https://github.com/slawal93/scott2023>
 
-**Original Paper Link:** <https://github.com/slawal93/scott2023/tree/main/original_paper>
+**Original Paper Link:** [https://github.com/slawal93/scott2023/blob/main/original_paper/scott2023-goodpeopledon'tneedmedication.pdf](https://github.com/slawal93/scott2023/blob/main/original_paper/scott2023-goodpeopledon'tneedmedication.pdf){.uri}
 
 ## Methods
 
